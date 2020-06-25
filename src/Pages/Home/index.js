@@ -8,7 +8,6 @@ export default function Home() {
       <div>
         <AboveNavBar />
         <NavBar />
-
         Home
       </div>
     </>
