@@ -1,0 +1,23 @@
+.ilumi:hover {
+  background-color: rgb(245, 110, 0);
+  transition: all 300ms ease-in-out;
+}
+
+.letra {
+  font-family: OpenSans;
+}
+
+.tam-letra {
+  font-size: 13px;
+}
+
+.tam-monedas-icon {
+  font-size: 15px;
+}
+
+.letra a {
+  text-decoration: none;
+}
+.contenido {
+  width: 101%;
+}

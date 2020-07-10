@@ -1,0 +1,32 @@
+.color-container {
+  background: #00083c;
+}
+
+.color-fila {
+  background-color: white;
+}
+
+.tam-text a {
+  font-family: Arial;
+  color: gray;
+  text-decoration: none;
+}
+
+.icon-color span {
+  color: rgb(255, 184, 51);
+}
+
+.texto-color {
+  color: white;
+}
+
+.footerbajo {
+  background: white;
+}
+.dimen {
+  width: 130px;
+}
+
+.ancho {
+  width: 100%;
+}
