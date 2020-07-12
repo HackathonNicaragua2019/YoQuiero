@@ -1,6 +1,6 @@
 import React from "react";
 
-import Navbar1 from "../../components/navbar1/index.js";
+import AboveNavBar from "../../components/AboveNavBar/index.js";
 import Navbar2 from "../../components/navbar2/index.js";
 import Navbar3 from "../../components/navbar3/index.js";
 import Navbar4 from "../../components/navbar4/index.js";
@@ -15,7 +15,7 @@ import Footer from "../../components/Footer/index.js";
 export default function Home() {
   return (
     <>
-      <Navbar1 />
+      <AboveNavBar />
       <Navbar2 />
       <Navbar3 />
       <Navbar4 />
