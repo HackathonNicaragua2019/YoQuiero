@@ -1,0 +1,30 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '../../scss/modules/variables';
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: rgb(46, 46, 46);
+}
+
+.row.main-section {
+  margin-right: 0;
+}
+
+.card-header {
+  padding: 0;
+  position: relative;
+  border-left: $card-border-width solid $card-border-color;
+  border-right: $card-border-width solid $card-border-color;
+}
+
+.navbar-business {
+  .navbar-nav {
+    .nav-item:active {
+      background-color: rgba($main-color, 0.125);
+    }
+  }
+}

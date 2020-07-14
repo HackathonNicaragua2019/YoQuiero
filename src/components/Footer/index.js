@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import "./index.css";
 import { AiFillFacebook } from "react-icons/ai";
@@ -8,6 +9,20 @@ import { FaPaperPlane } from "react-icons/fa";
 const styles = {
   iconSize: 30,
 };
+=======
+import React, {Component} from 'react'
+import './index.scss'
+import {AiFillFacebook} from 'react-icons/ai'
+import {AiFillTwitterSquare} from 'react-icons/ai'
+import {AiFillInstagram} from 'react-icons/ai'
+import Logo from '../../assets/images/logo.png'
+import {FaPaperPlane} from 'react-icons/fa'
+
+const styles = {
+  iconSize: 30,
+}
+
+>>>>>>> a8436422df78e67e19815304a90b33439949f59f
 export default class Footer extends Component {
   render() {
     return (
@@ -142,7 +157,11 @@ export default class Footer extends Component {
               </div>
               <div className="col-4">
                 <a>
+<<<<<<< HEAD
                   Envianos un correo{" "}
+=======
+                  Envianos un correo{' '}
+>>>>>>> a8436422df78e67e19815304a90b33439949f59f
                   <span>
                     <button type="button" className="btn btn-primary  btn-sm">
                       <FaPaperPlane className="tam-icon" />
@@ -155,6 +174,6 @@ export default class Footer extends Component {
           </div>
         </footer>
       </>
-    );
+    )
   }
 }

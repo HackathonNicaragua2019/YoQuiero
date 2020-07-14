@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import NotFoundBanner from "../../assets/images/404.png";
-import './index.css'
+import React, {Component} from 'react'
+import NotFoundBanner from '../../assets/images/404.png'
+import './index.scss'
 
 export default class NotFound extends Component {
   render() {
@@ -8,6 +8,6 @@ export default class NotFound extends Component {
       <>
         <img className="image-not-found" src={NotFoundBanner} alt="" />
       </>
-    );
+    )
   }
 }

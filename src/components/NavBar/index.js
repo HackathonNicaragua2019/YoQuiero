@@ -1,19 +1,19 @@
-import React, { Component } from "react";
-import "./index.css";
+import React, {Component} from 'react'
+import './index.scss'
 
-import Logo from "../../assets/images/logo.png";
-import SpanishImage from "../../assets/images/spanish_language.png";
-import EnglishImage from "../../assets/images/english_language.png";
-import { FiUser } from "react-icons/fi";
+import Logo from '../../assets/images/logo.png'
+import SpanishImage from '../../assets/images/spanish_language.png'
+import EnglishImage from '../../assets/images/english_language.png'
+import {FiUser} from 'react-icons/fi'
 import {
   AiOutlineQuestionCircle,
   AiOutlineShoppingCart,
-  AiOutlineSearch
-} from "react-icons/ai";
+  AiOutlineSearch,
+} from 'react-icons/ai'
 
 const styles = {
-  iconSize: 21
-};
+  iconSize: 21,
+}
 
 export default class NavBar extends Component {
   render() {
@@ -22,7 +22,9 @@ export default class NavBar extends Component {
         <nav className="navbar navbar-expand-lg main-navbar flex-row">
           <div className="row py-1">
             <div className="col-xl-3 d-flex align-items-center">
-              <img src={Logo} className="img-logo" alt="" />
+              <a href="/">
+                <img src={Logo} className="img-logo" alt="" />
+              </a>
 
               <div className="dropdown ml-4">
                 <img
@@ -36,8 +38,14 @@ export default class NavBar extends Component {
                   aria-expanded="false"
                 />
 
-                <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a className="dropdown-item d-flex align-items-center" href="#">
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <a
+                    className="dropdown-item d-flex align-items-center"
+                    href="/404"
+                  >
                     <img
                       src={EnglishImage}
                       alt="..."
@@ -55,11 +63,11 @@ export default class NavBar extends Component {
                   type="text"
                   className="form-control form-control-main-search"
                   aria-label="Sizing example input"
-                  placeholder="celular iphone x"
+                  placeholder="Buscar"
                 />
                 <div className="input-group-append search-group-append">
                   <a
-                    href="#"
+                    href="/404"
                     className="input-group-text search-text-group"
                     id="inputGroup-sizing-sm"
                   >
@@ -90,14 +98,14 @@ export default class NavBar extends Component {
                 <div className="mr-auto divider"></div>
 
                 <div className="item position-relative">
-                  <a href="/404" className="icon-link-navbar">
+                  <a href="/shopping-car" className="icon-link-navbar">
                     <AiOutlineShoppingCart
                       size={styles.iconSize}
                       className="icon-item mr-2"
                     />
                     Carro
                   </a>
-                  <span className="badge badge-shopping-cart"> 2 </span>
+                  <span className="badge badge-shopping-cart"> 3 </span>
                 </div>
               </div>
             </div>
@@ -116,57 +124,57 @@ export default class NavBar extends Component {
                 Categorías
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="/404">
                   Action
                 </a>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="/404">
                   Another action
                 </a>
                 <div className="dropdown-divider"></div>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="/404">
                   Something else here
                 </a>
               </div>
               <div className="divider divider-sub-navbar"> </div>
             </div>
 
-            <div className="d-flex justify-content-center align-items-center">
+            <div className="item-nav-bar">
               <a href="/404" className="nav-bar-link">
                 Novedades
               </a>
               <div className="divider divider-sub-navbar"> </div>
             </div>
-            <div className="d-flex justify-content-center align-items-center">
+            <div className="item-nav-bar">
               <a href="/404" className="nav-bar-link">
                 Nuevos productos
               </a>
               <div className="divider divider-sub-navbar"> </div>
             </div>
-            <div className="d-flex justify-content-center align-items-center">
+            <div className="item-nav-bar">
               <a href="/404" className="nav-bar-link">
                 Comida
               </a>
               <div className="divider divider-sub-navbar"> </div>
             </div>
-            <div className="d-flex justify-content-center align-items-center">
+            <div className="item-nav-bar">
               <a href="/404" className="nav-bar-link">
                 Ropa
               </a>
               <div className="divider divider-sub-navbar"> </div>
             </div>
-            <div className="d-flex justify-content-center align-items-center">
+            <div className="item-nav-bar">
               <a href="/404" className="nav-bar-link">
                 Envíos
               </a>
               <div className="divider divider-sub-navbar"> </div>
             </div>
-            <div className="d-flex justify-content-center align-items-center">
+            <div className="item-nav-bar">
               <a href="/404" className="nav-bar-link">
                 Servicios
               </a>
               <div className="divider divider-sub-navbar"> </div>
             </div>
-            <div className="d-flex justify-content-center align-items-center">
+            <div className="item-nav-bar">
               <a href="/404" className="nav-bar-link">
                 Lo más vendido
               </a>
@@ -174,6 +182,6 @@ export default class NavBar extends Component {
           </div>
         </nav>
       </>
-    );
+    )
   }
 }
