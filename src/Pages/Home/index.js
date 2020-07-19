@@ -12,10 +12,11 @@ import Slider2 from '../../components/slider2/index.js'
 import Slider3 from '../../components/slider3/index.js'
 import Informacion from '../../components/informacion/index.js'
 import Footer from '../../components/Footer/index.js'
+import Navbar1 from 'components/Navbar1/index.js'
 export default function Home() {
   return (
     <>
-      <AboveNavBar />
+      <Navbar1 />
       <Navbar2 />
       <Navbar3 />
       <Navbar4 />
