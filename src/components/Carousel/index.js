@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React, { Component } from "react";
-import uno from "../../assets/images/1.png";
-import dos from "../../assets/images/2.png";
-import tres from "../../assets/images/3.png";
-import cuatro from "../../assets/images/4.png";
-import cinco from "../../assets/images/5.png";
-import seis from "../../assets/images/6.png";
-import baigon from "../../assets/images/img/baigon.png";
-import bicicleta from "../../assets/images/img/bicicleta.png";
-import reloj from "../../assets/images/img/reloj.png";
-import mochila from "../../assets/images/img/mochila.png";
-=======
 import React, {Component} from 'react'
 import uno from '../../assets/images/1.png'
 import dos from '../../assets/images/2.png'
@@ -22,8 +9,6 @@ import baigon from '../../assets/images/img/baigon.png'
 import bicicleta from '../../assets/images/img/bicicleta.png'
 import reloj from '../../assets/images/img/reloj.png'
 import mochila from '../../assets/images/img/mochila.png'
-
->>>>>>> a8436422df78e67e19815304a90b33439949f59f
 export default class Carousel extends Component {
   render() {
     return (
@@ -48,7 +33,6 @@ export default class Carousel extends Component {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src={uno} class="d-block w-100" alt="..." />
-<<<<<<< HEAD
             </div>
             <div class="carousel-item">
               <img src={dos} class="d-block w-100" alt="..." />
@@ -104,63 +88,6 @@ export default class Carousel extends Component {
                 <img src={reloj} className="d-block w-100" alt="..." />
               </div>
             </div>
-=======
-            </div>
-            <div class="carousel-item">
-              <img src={dos} class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src={tres} class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src={cuatro} class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src={cinco} class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src={seis} class="d-block w-100" alt="..." />
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-
-        <br></br>
-        <div className="container color-contenedor">
-          <div className="row text-align-center">
-            <div className="col-3">
-              <div className="card">
-                <img src={baigon} className="d-block w-100" alt="..." />
-              </div>
-            </div>
-            <div className="col-3">
-              <div className="card">
-                <img src={bicicleta} className="d-block w-100" alt="..." />
-              </div>
-            </div>
-            <div className="col-3">
-              <div className="card">
-                <img src={reloj} className="d-block w-100" alt="..." />
-              </div>
-            </div>
->>>>>>> a8436422df78e67e19815304a90b33439949f59f
             <div className="col-3">
               <div className="card">
                 <img src={mochila} className="d-block w-100" alt="..." />
