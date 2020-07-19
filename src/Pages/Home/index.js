@@ -16,7 +16,6 @@ import Navbar1 from 'components/Navbar1/index.js'
 export default function Home() {
   return (
     <>
-      <Navbar1 />
       <Navbar2 />
       <Navbar3 />
       <Navbar4 />
