@@ -15,10 +15,10 @@ export default class Carousel extends Component {
       <>
         <div
           id="carouselExampleIndicators"
-          class="carousel slide"
+          className="carousel slide  d-none d-md-block"
           data-ride="carousel"
         >
-          <ol class="carousel-indicators">
+          <ol className="carousel-indicators">
             <li
               data-target="#carouselExampleIndicators"
               data-slide-to="0"
