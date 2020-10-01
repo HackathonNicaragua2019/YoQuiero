@@ -100,6 +100,7 @@ export default class LoginModal extends Component {
           </div>
         </div>
 
+        {/*Formulario de registro modal*/}
         <div
           className="modal fade"
           id="register"
