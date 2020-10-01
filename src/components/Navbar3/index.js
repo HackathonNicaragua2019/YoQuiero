@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import './index.scss'
 import {FaShoppingBasket} from 'react-icons/fa'
-import LoginModal from '../LoginModal'
 
 const styles = {
   iconSize: 20,
@@ -13,7 +12,7 @@ export default class Navbar3 extends Component {
       <>
         <nav className="wrapper m-0">
           <div className="item">
-            <a href="" data-toggle="modal" data-target="#loginmodal">
+            <a href="" data-toggle="modal" data-target="#register">
               <FaShoppingBasket size={styles.iconSize} />
               Crear
             </a>
