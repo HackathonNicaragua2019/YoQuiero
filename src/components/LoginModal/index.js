@@ -74,31 +74,15 @@ export default class LoginModal extends Component {
                       type="email"
                       className="form-control form-control-modal"
                       id="exampleInputEmail1"
-                      placeholder="Nombre de usuario"
+                      placeholder="Nombre de usuario o correo"
                     />
                   </div>
                   <div className="form-group">
                     <input
-                      type="email"
-                      className="form-control form-control-modal"
-                      id="exampleInputEmail1"
-                      placeholder="Correo"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <input
-                      type="email"
+                      type="password"
                       className="form-control form-control-modal"
                       id="exampleInputEmail1"
                       placeholder="Contraseña"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <input
-                      type="email"
-                      className="form-control form-control-modal"
-                      id="exampleInputEmail1"
-                      placeholder="Escriba de nuevo su contraseña"
                     />
                   </div>
                 </form>
@@ -109,7 +93,7 @@ export default class LoginModal extends Component {
                   role="button"
                   className="submit-button btn btn-primary"
                 >
-                  Registrarse
+                  Iniciar
                 </a>
               </div>
             </div>
