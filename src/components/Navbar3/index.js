@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './index.scss'
 import {FaShoppingBasket} from 'react-icons/fa'
+import RegisterModal from 'components/RegisterModal'
 
 const styles = {
   iconSize: 20,
@@ -63,6 +64,8 @@ export default class Navbar3 extends Component {
             <a href="#">Más</a>
           </div>
         </nav>
+
+        <RegisterModal to="/createStore" />
       </>
     )
   }

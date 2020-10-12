@@ -226,7 +226,7 @@ export default class Navbar2 extends Component {
           </div>
         </nav>
 
-        <LoginModal to="/createStore" />
+        <LoginModal to="/storeProfile" />
       </>
     )
   }

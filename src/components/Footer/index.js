@@ -24,7 +24,7 @@ export default class Footer extends Component {
                 <ul class="list-unstyled text-left espacio">
                   <li>
                     <a href="#" className="link">
-                      Vende en YoQuiero
+                      Vende en Magudali
                     </a>
                   </li>
                   <li>
@@ -46,7 +46,7 @@ export default class Footer extends Component {
               </div>
               <hr className="clearfix w-100 d-md-none pb-3"></hr>
               <div className="col-md-4 mb-md-0 mb-4 ">
-                <h5 class="text-uppercase">Aumenta tus ventas en YoQuiero</h5>
+                <h5 class="text-uppercase">Aumenta tus ventas en Magudali</h5>
                 <ul class="list-unstyled espacio">
                   <li>
                     <a href="#!" className="link">
@@ -86,7 +86,7 @@ export default class Footer extends Component {
                   </li>
                   <li>
                     <a href="#!" className="link">
-                      Envio de prod2uctos
+                      Envio de productos
                     </a>
                   </li>
                   <li>
@@ -129,7 +129,7 @@ export default class Footer extends Component {
               </div>
               <div className="col-2">
                 <a href="" className="link">
-                  Informacion de YoQuiero
+                  Informacion de Magudali
                 </a>
               </div>
               <div className="col-2">
