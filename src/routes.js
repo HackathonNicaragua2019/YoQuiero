@@ -7,12 +7,16 @@ const StoreProfile = lazy(() => import('./Pages/StoreProfile'))
 const NotFound = lazy(() => import('./Pages/NotFound'))
 const PrePurchase = lazy(() => import('./Pages/PrePurchase'))
 const ShoppingCar = lazy(() => import('./Pages/ShoppingCar'))
+const RecoverPassword = lazy(() => import('./Pages/RecoverPassword'))
 
 export default function AppRoutes() {
   return (
     <Suspense fallback={null}>
       <Router>
         <Switch>
+          <Route path="/RecoverPassword">
+            <RecoverPassword />
+          </Route>
           <Route path="/shopping-car">
             <ShoppingCar />
           </Route>

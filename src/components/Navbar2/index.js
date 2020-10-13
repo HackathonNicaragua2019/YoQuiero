@@ -133,6 +133,12 @@ export default class Navbar2 extends Component {
                 </a>
               </div>
             </div>
+            {/*Fin Idioma*/}
+            {/*****************************************************************************/}
+
+            {/*Boton de inicio de sesion*/}
+            {/*****************************************************************************/}
+
             <div className="col-4 d-none d-md-block">
               <a
                 href=""
@@ -144,9 +150,9 @@ export default class Navbar2 extends Component {
                 Iniciar sesión
               </a>
             </div>
-
-            {/*Fin Idioma*/}
+            {/*Fin Boton de inicio de sesion*/}
             {/*****************************************************************************/}
+
             {/*****************************************************************************/}
             {/*Inicio Opciones*/}
 
@@ -220,7 +226,7 @@ export default class Navbar2 extends Component {
           </div>
         </nav>
 
-        <LoginModal to="/createStore" />
+        <LoginModal to="/storeProfile" />
       </>
     )
   }

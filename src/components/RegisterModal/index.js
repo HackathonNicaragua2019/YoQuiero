@@ -2,7 +2,8 @@ import React, {Component} from 'react'
 import {FaFacebookF, FaTwitter, FaGoogle} from 'react-icons/fa'
 import './index.scss'
 import './overwrite.scss'
-export default class LoginModal extends Component {
+
+export default class RegisterModal extends Component {
   constructor(props) {
     super(props)
     this.state = {}
@@ -12,9 +13,10 @@ export default class LoginModal extends Component {
     const direction = this.props.to
     return (
       <>
+        {/*Formulario de registro modal*/}
         <div
           className="modal fade"
-          id="loginmodal"
+          id="register"
           tabIndex="-1"
           role="dialog"
           aria-hidden="true"
@@ -70,18 +72,34 @@ export default class LoginModal extends Component {
                 <form method="post">
                   <div className="form-group">
                     <input
+                      type="text"
+                      className="form-control form-control-modal"
+                      id="nombre"
+                      placeholder="Nombre de usuario"
+                    />
+                  </div>
+                  <div className="form-group">
+                    <input
                       type="email"
                       className="form-control form-control-modal"
-                      id="exampleInputEmail1"
-                      placeholder="Nombre de usuario o correo"
+                      id="correo"
+                      placeholder="correo electronico"
                     />
                   </div>
                   <div className="form-group">
                     <input
                       type="password"
                       className="form-control form-control-modal"
-                      id="exampleInputEmail1"
+                      id="contraseña1"
                       placeholder="Contraseña"
+                    />
+                  </div>
+                  <div className="form-group">
+                    <input
+                      type="password"
+                      className="form-control form-control-modal"
+                      id="contraseña2"
+                      placeholder="Vuelva a escribir la contraseña"
                     />
                   </div>
                 </form>
@@ -92,9 +110,8 @@ export default class LoginModal extends Component {
                   role="button"
                   className="submit-button btn btn-primary"
                 >
-                  Iniciar
+                  Comenzar
                 </a>
-                <a href="/RecoverPassword">¿Has olvidado tu contraseña?</a>
               </div>
             </div>
           </div>
